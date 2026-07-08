@@ -71,6 +71,16 @@ export function VoiceBillingPage({ type }: Props) {
     setItems((prev) => prev.filter((item) => item.id !== id))
   }
 
+  const stepQty = (id: string, delta: number) => {
+    setItems((prev) =>
+      prev.map((item) => {
+        if (item.id !== id) return item
+        const qty = Math.max(0, item.qty + delta)
+        return { ...item, qty, total: Math.round(qty * item.unitPrice * 100) / 100 }
+      }),
+    )
+  }
+
   const addBlankItem = () => {
     setItems((prev) => [...prev, emptyItem()])
   }
@@ -214,7 +224,7 @@ export function VoiceBillingPage({ type }: Props) {
                   <div className="flex items-center gap-2">
                     <button
                       type="button"
-                      onClick={() => updateItem(item.id, { qty: Math.max(0, item.qty - 1) })}
+                      onClick={() => stepQty(item.id, -1)}
                       className="flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100 text-lg font-bold text-gray-700"
                     >
                       −
@@ -227,7 +237,7 @@ export function VoiceBillingPage({ type }: Props) {
                     />
                     <button
                       type="button"
-                      onClick={() => updateItem(item.id, { qty: item.qty + 1 })}
+                      onClick={() => stepQty(item.id, 1)}
                       className="flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100 text-lg font-bold text-gray-700"
                     >
                       +

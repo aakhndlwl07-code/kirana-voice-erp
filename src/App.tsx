@@ -5,8 +5,20 @@ import { LoginPage } from './features/auth/LoginPage'
 import { BillingPage } from './features/billing/BillingPage'
 import { VoiceBillingPage } from './features/billing/VoiceBillingPage'
 import { AccountsPage } from './features/accounts/AccountsPage'
+import { ComingSoonPage } from './features/accounts/ComingSoonPage'
 import { DashboardPage } from './features/dashboard/DashboardPage'
 import { SettingsPage } from './features/settings/SettingsPage'
+import { useTranslation } from 'react-i18next'
+
+function CustomersComingSoon() {
+  const { t } = useTranslation()
+  return <ComingSoonPage title={t('accounts.customers')} />
+}
+
+function SuppliersComingSoon() {
+  const { t } = useTranslation()
+  return <ComingSoonPage title={t('accounts.suppliers')} />
+}
 
 function App() {
   return (
@@ -18,6 +30,8 @@ function App() {
             <Route index element={<Navigate to="/billing" replace />} />
             <Route path="/billing" element={<BillingPage />} />
             <Route path="/accounts" element={<AccountsPage />} />
+            <Route path="/accounts/customers" element={<CustomersComingSoon />} />
+            <Route path="/accounts/suppliers" element={<SuppliersComingSoon />} />
             <Route path="/dashboard" element={<DashboardPage />} />
             <Route path="/settings" element={<SettingsPage />} />
           </Route>

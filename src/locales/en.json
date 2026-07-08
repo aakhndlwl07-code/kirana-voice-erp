@@ -47,7 +47,8 @@
     "title": "Accounts",
     "subtitle": "See who owes you and who you owe",
     "customers": "Customers",
-    "suppliers": "Suppliers"
+    "suppliers": "Suppliers",
+    "comingSoon": "Customer and supplier ledgers are coming in the next update."
   },
   "dashboard": {
     "title": "Dashboard",
