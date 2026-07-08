@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "billing": "बिलिंग",
+    "accounts": "खाता",
+    "dashboard": "डैशबोर्ड",
+    "settings": "सेटिंग्स"
+  },
+  "billing": {
+    "title": "बिलिंग",
+    "subtitle": "आवाज़, फोटो या टाइप करके बिल बनाएं",
+    "customerBill": "ग्राहक बिल",
+    "supplierBill": "सप्लायर बिल"
+  },
+  "accounts": {
+    "title": "खाता",
+    "subtitle": "देखें किसका पैसा बकाया है",
+    "customers": "ग्राहक",
+    "suppliers": "सप्लायर"
+  },
+  "dashboard": {
+    "title": "डैशबोर्ड",
+    "subtitle": "आपके व्यापार का हाल"
+  },
+  "settings": {
+    "title": "सेटिंग्स",
+    "language": "भाषा",
+    "hindi": "हिंदी",
+    "english": "English"
+  }
+}

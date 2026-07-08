@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "billing": "Billing",
+    "accounts": "Accounts",
+    "dashboard": "Dashboard",
+    "settings": "Settings"
+  },
+  "billing": {
+    "title": "Billing",
+    "subtitle": "Create a bill by voice, photo, or typing",
+    "customerBill": "Customer Bill",
+    "supplierBill": "Supplier Bill"
+  },
+  "accounts": {
+    "title": "Accounts",
+    "subtitle": "See who owes you and who you owe",
+    "customers": "Customers",
+    "suppliers": "Suppliers"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Your business at a glance"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "hindi": "हिंदी",
+    "english": "English"
+  }
+}
