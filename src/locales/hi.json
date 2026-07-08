@@ -5,11 +5,43 @@
     "dashboard": "डैशबोर्ड",
     "settings": "सेटिंग्स"
   },
+  "auth": {
+    "title": "स्वागत है",
+    "subtitle": "शुरू करने के लिए अपना मोबाइल नंबर डालें",
+    "phonePlaceholder": "10 अंकों का मोबाइल नंबर",
+    "continue": "आगे बढ़ें",
+    "invalid": "कृपया सही 10 अंकों का नंबर डालें"
+  },
   "billing": {
     "title": "बिलिंग",
     "subtitle": "आवाज़, फोटो या टाइप करके बिल बनाएं",
     "customerBill": "ग्राहक बिल",
-    "supplierBill": "सप्लायर बिल"
+    "supplierBill": "सप्लायर बिल",
+    "back": "वापस",
+    "customerBillTitle": "ग्राहक बिल",
+    "supplierBillTitle": "सप्लायर बिल",
+    "tapMicToSpeak": "माइक दबाएं और अपना बिल बोलें",
+    "tapMicAgain": "और आइटम जोड़ने के लिए माइक दबाएं",
+    "listening": "सुन रहे हैं... अभी बोलें",
+    "orTypeInstead": "या टाइप करें",
+    "typePlaceholder": "जैसे: 5 tin ke dabbe total 1500 ka",
+    "parse": "आइटम बनाएं",
+    "micNotSupported": "इस ब्राउज़र में आवाज़ की सुविधा नहीं है। कृपया टाइप करें।",
+    "confirmTitle": "आइटम जांचें और ठीक करें",
+    "confirmSubtitle": "सेव करने से पहले गलत सुनी गई चीज़ें ठीक कर लें",
+    "addItem": "आइटम जोड़ें",
+    "itemNamePlaceholder": "आइटम का नाम",
+    "qty": "मात्रा",
+    "price": "दाम",
+    "lineTotal": "कुल",
+    "grandTotal": "कुल जोड़",
+    "saveBill": "बिल सेव करें",
+    "recordAgain": "फिर से बोलें",
+    "savedTitle": "बिल सेव हो गया!",
+    "backToBilling": "बिलिंग पर वापस जाएं",
+    "newBill": "नया बिल",
+    "delete": "हटाएं",
+    "noItems": "अभी कोई आइटम नहीं — बोलें या टाइप करें"
   },
   "accounts": {
     "title": "खाता",
@@ -25,6 +57,7 @@
     "title": "सेटिंग्स",
     "language": "भाषा",
     "hindi": "हिंदी",
-    "english": "English"
+    "english": "English",
+    "phone": "मोबाइल नंबर"
   }
 }
